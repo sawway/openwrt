@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Openwrt image
-      run: ./build.sh
+      run: chmod a+x ./build.sh; ./build.sh
