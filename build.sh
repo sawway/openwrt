@@ -31,10 +31,10 @@ echo "CONFIG_TARGET_IMAGES_GZIP=y" >> ./.config
 
 make defconfig
 
-make download -j8 || make download -j1 V=s
+make download -j1|| make download -j1 V=s
 
 
-make -j$(nproc) V=s|| make -j1 V=s
+make -j1 V=s|| make -j1 V=s
 
 du -lh --max-depth=1
 
