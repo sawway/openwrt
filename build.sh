@@ -37,4 +37,6 @@ make download -j1|| make download -j1 V=s
 make -j1 V=s|| make -j1 V=s
 
 du -lh --max-depth=1
+ls -lh .
+
 
